@@ -4,11 +4,16 @@
   "description": "samu test",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
   },
-  "author": "",
+  "author": "Samuel Gómez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samuelgoes/nodejs-test"
   }
 }
